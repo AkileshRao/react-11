@@ -1,0 +1,77 @@
+.appSeven-rest{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
+
+.appSeven-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 2em;
+    
+}
+
+.appSeven {
+    min-width: 400px;
+    background: #f1f1f1;
+    padding: 15px;
+}
+
+.appSeven-mainDisplay{
+    height: 65px;
+    text-align: right;
+    position: relative;
+    font-size: 2em;
+    color: #8c8c8c !important; 
+}
+
+.appSeven-subDisplay{
+    height: 50px;
+    text-align: right;
+    position: relative;
+    color: #8c8c8c !important;
+}
+
+.appSeven-rest .MuiButton-contained, .appSeven-controls .MuiButton-contained{
+    margin: 5px !important;
+    padding: 10px !important;
+    font-size: 20px !important;
+    background: #525252 !important;
+    font-weight: 700 !important;
+    color:white !important;
+}
+
+.appSeven-history-button{
+    width:97.5%;
+}
+
+.appSeven-screen{
+    background: #f1f1f1 !important;
+    padding: 10px;
+}
+
+.appSeven-history-block .MuiPaper-elevation1{
+    margin-bottom: 5px !important;
+    margin: auto;
+    width: 97.5%;
+}
+
+.appSeven-history-block .MuiPaper-elevation1:hover{
+    background: #ff6161 !important;
+    color: white !important;
+    transition: 0.3s all ease-in-out;
+}
+
+.appSeven-history-block .MuiTypography-body1{
+    padding: 10px 10px 0px 10px !important;
+}
+
+.appSeven-history-block .MuiTypography-h5{
+    padding:  0px 10px 10px 10px !important;
+    font-size: 1.5em !important;
+}

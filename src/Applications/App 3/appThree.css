@@ -1,0 +1,23 @@
+.appThree-application-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 2em;
+}
+
+.appThree-card-content{
+    background: #efefef;
+}
+
+.appThree-card-display{
+    text-align: center;
+    color: #717171;
+    font-family:'Roboto', sans-serif;
+}
+
+.appThree-time-selector{
+    width: 100%;
+}

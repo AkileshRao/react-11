@@ -1,0 +1,26 @@
+.appFive-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: auto;
+}
+
+.appFive-card-image{
+    height: 200px;
+}
+
+.appFive-cardContent{
+    min-height: 160px;
+}
+
+.appFive-card-container{
+    padding: 15px;
+}
+
+.appFive-star-container{
+    margin: auto;
+}
+
+.appFive-card-container i{
+    color:#fec909;
+    font-size: 48px;
+}

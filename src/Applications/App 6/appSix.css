@@ -1,0 +1,76 @@
+.appSix-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 2em;
+}
+
+.appSix-number-selector{
+    font-size: 3em;
+    width: 100%;
+}
+
+.MuiInputBase-input{
+    font-size : 3em !important;
+}
+
+.appSix-container .Mui-selected{
+    background: #c8c8c8 !important;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.appSix-container .MuiTabs-indicator{
+    background: grey !important;
+    height: 3px;
+}
+
+.appSix-container .MuiButton-label{
+    font-size: 25px;
+    color: white;
+}
+
+.appSix-button{
+    background: #c8c8c8 !important;
+    width: 100%; 
+    margin-top: 2em !important;
+}
+
+.appSix-paper{
+    margin-bottom : 1em;
+}
+
+.appSix-successMessage{
+    text-align: center;
+    font-size: 25px;
+    color: #5d5d5d !important;
+}
+
+.MuiButton-textPrimary{
+    margin: auto !important;
+    font-size: 19px !important;
+    background: #cecece !important;
+    width: 100% !important;
+    font-weight: 700 !important;
+    color: #757575 !important;
+}
+
+.MuiDialogContent-root{
+    padding: 2em !important;
+}
+
+.MuiDialogContentText-root {
+    margin-bottom: 0px !important;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.appSix-guessCount{
+    text-align: center;
+    color: #5d5d5d;
+}

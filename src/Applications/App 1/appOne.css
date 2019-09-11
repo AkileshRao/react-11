@@ -1,0 +1,30 @@
+.application-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.screen{
+    background: #efefef;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 3em;
+    color:#717171;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}

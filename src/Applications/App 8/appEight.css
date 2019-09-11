@@ -1,0 +1,44 @@
+.appEight-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 2em;
+}
+
+.appEight-card-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appEight-hourly{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 800px;
+    padding: 10px;
+    
+}
+
+.owl-dots{
+    display: none !important;
+}
+
+.appEight-container .MuiCardContent-root {
+    background: #1f2338  !important;
+}
+
+.appEight-current .MuiTypography-h5, .appEight-hourly .MuiTypography-h5{
+    color:rgb(89, 128, 255);
+    font-weight: 700;
+}
+
+.appEight-hourly .MuiTypography-colorTextSecondary, .appEight-current .MuiTypography-colorTextSecondary{
+    color:rgb(219, 219, 219);
+    font-weight: 700;
+}
